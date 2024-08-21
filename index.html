@@ -13,335 +13,324 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    
     <!-- Top Navigation Menu Starts-->
     <header class="topnav">
-        <div style="display: flex; align-items: center; ">
-            <img style="padding-bottom: 10px;" src="letter-d.png" alt="Deepika">
-            <!-- <img src="logo.png" alt="Deepika"> -->
-            <h1 style="padding-left: 5px; font-size: x-large; font-family: Brush Script MT;">Deepika Kala</h1>
-
+        <div style="display: flex; align-items: center;">
+            <!-- <img src="images/letter-d.png" alt="Deepika"> -->
+            <p style="font-family:'Courier New', Courier, monospace; font-weight: bolder; font-size: x-large;">Deepika Kala</p>
         </div>
         <!-- Navigation links (hidden by default) -->
+        
         <div id="myLinks">
-            <a href="#home" style="text-decoration: none; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Home</a>
-            <a href="#intro" style="text-decoration: none; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">About</a>
-            <a href="#projects" style="text-decoration: none; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Projects</a>
-            <a href="#skillset" style="text-decoration: none; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Skills</a>
-            <a href="#exp" style="text-decoration: none; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Experience</a>
-            <a href="#edu" style="text-decoration: none; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Education</a>
-            <a href="#cont" style="text-decoration: none; color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Contact</a>
+            <ul class="myLinks-ul">
+                <li><a href="#home"><img src="images/home.png" alt="">Home</a></li>
+                <li><a href="#intro"><img src="images/user.png" alt="">About</a></li>
+                <li><a href="#skillset"><img src="images/skills.png" alt="">Skills</a></li>
+                <li><a href="#projects"><img src="images/project.png" alt="">Projects</a></li>
+                <li><a href="#exp"><img src="images/experience.png" alt="">Experience</a></li>
+                <li><a href="#edu"><img src="images/education.png" alt="">Education</a></li>
+                <li><a href="#cont"><img src="images/contact.png" alt="">Contact</a></li>
+            </ul>
         </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <!-- Hamburger menu to toggle the navigation links -->
         <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
             <i class="fa fa-bars"></i>
         </a>
     </header>
-    <!-- Top Navigation Menu Starts-->
-    <!--<header>
-        <img src="letter-d.png" alt="Deepika">
-        <img src="logo.png" alt="Deepika">
-        <nav>
-            <div class="menu-icon" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-            <ul class="header-div" id="nav-ul">
-                <li id="header-h1"><a href="#home" style="text-decoration: none; color: #020304;">Home</a></li>
-                <li id="header-h1"><a href="#intro" style="text-decoration: none; color: #020304;">About</a></li>
-                <li id="header-h1"><a href="#projects" style="text-decoration: none; color: #020304;">Projects</a></li>
-                <li id="header-h1"><a href="#exp" style="text-decoration: none; color: #020304;">Experience</a></li>
-                <li id="header-h1"><a href="#edu" style="text-decoration: none; color: #020304;">Education</a></li>
-                <li id="header-h1"><a href="#cont" style="text-decoration: none; color: #020304;">Contact</a></li>
-            </ul>
-        </nav>
-    </header>-->
-
-
-    <!-- Script for Header -->
-    <script src="scripts.js"></script>
-
+    
     
     <!--Header End-->
 
-
-
     <!--Banner Started-->
-    <div class="banner-content">
-        <div class="icons">
-            <a href="https://www.linkedin.com/in/deepika-kala-9ba519259" ><img id="icon"src="linkedin.png" style="margin-top: 100px;" alt="linkedin"></a>
-            <a href="https://github.com/deepika1998kala?tab=repositories" ><img id="icon"src="github.png" alt="github"></a>
-            <a href="https://www.instagram.com/deepika1998kala/" ><img id="icon"src="instagram.png" alt="instagram"></a>
-            <a href="https://www.facebook.com/deepika.dips.1840/" ><img id="icon"src="facebook.png" alt="facebook"></a>
-        </div>
+    <section class="banner-content">
+        <!-- <div class="icons">
+            <a href="https://www.linkedin.com/in/deepika-kala-9ba519259" ><img id="icon"src="images/linkedin.png" style="margin-top: 100px;" alt="linkedin"></a>
+            <a href="https://github.com/deepika1998kala?tab=repositories" ><img id="icon"src="images/github.png" alt="github"></a>
+            <a href="https://www.instagram.com/deepika1998kala/" ><img id="icon"src="images/instagram.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/deepika.dips.1840/" ><img id="icon"src="images/facebook.png" alt="facebook"></a>
+        </div> -->
+
+        
         <div class="banner">
-            <h1 id="banner-h1"  class="bouncy-text" style="color: #36454f;">Hi! It's Me, <a style="color:cadetblue;">Deepika!</a></h1>
-            <h1 id="banner-h2">I'm a fresher. Fueled by curiosity, driven by code: My quest for DSA mastery. <img src="employee.png" style="height: 40px;"></h1>
-            <button id="btn-1" type="button" ><a href="#intro" style="text-decoration: none; color: rgb(0, 0, 0);">More About Me</a></button>
+            <div>
+                <img src="images/Avatar.jpeg" alt="" style="align-items: center; width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+            </div>
+            
+            <h1 id="banner-h1" class="bouncy-text" style="color: #36454f;">Hi! It's Me, <a style="color:cadetblue;">Deepika!</a></h1>
+            <div class="banner-quote" style="align-items: center;">
+                <p id="banner-h2">I'm a fresher. Fueled by curiosity, driven by code: My quest for DSA mastery. <img src="images/employee.png" style="height: 40px;"></p>
+                <p id="banner-h3">"Start where you are. Use what you have. Do what you can. "</p>
+            </div>
         </div>
-    </div>
+
+                <!-- Scroll down SVG icon -->
+        <div class="scroll-down">
+            <span class="scroll-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 16.5L6 10.5L7.41 9.09L12 13.67L16.59 9.09L18 10.5L12 16.5Z" fill="currentColor"/>
+                </svg>
+                <p style="color: #9ab2c2;">Scroll Down</p>
+            </span>
+        </div>
+    </section>
     <!--Banner End-->
 
     <!----------------------------------Main Section Starts------------------------------------------>
-    <main id="intro">
+    <section id="intro">
         <h1 id="about-1">About Me</h1>
         <h1 id="about-2">My Introduction</h1>
-        <img src="/IntroImage.jpg" alt="Intro Image" class="intro-img">
-        <div class="main-div-1" style="align-items: center;">
-            
-            <div class="inline-div">
-                <div style="display: flex;">
-                    <div class="inline-div-1">
-                        <img src="" alt="">
-                        <h1 style="font-size: medium; color:cadetblue; text-align: center;">Experience</h1> 
-                        <h1 style="font-size: medium; color:black; text-align: center;">3 months</h1>
-                        
-                    </div>
-                    <div class="inline-div-1">
-                        <img src="" alt="">
-                        <h1 style="font-size: medium; color:cadetblue; text-align: center;">Completed</h1>
-                        <h1 style="font-size: medium; color:black; text-align: center;">3+ Projects</h1>
-                    </div>
-                    <div class="inline-div-1">
-                        <img src="" alt="">
-                        <h1 style="font-size: medium; color:cadetblue; text-align: center;">Learning</h1>
-                        <h1 style="text-align: center; font-size: medium;">24/7</h1>
-                    </div>
-                </div>
-                <p>
+        <div class="intro-about" style="display: flex;">
+            <img src="images/IntroImage (1).jpg" alt="Intro Image" class="intro-img" >             
+            <div style="align-items: center;" class="intro-about-div">
+                <p  class="intro-about-p">
                     A driven and detail-oriented computer science professional recently completed
                     my Master's degree from National Institute of Technology, Delhi. My passion for
                     continuous learning is evidenced by my active engagement in additional coursework
                     and certifications in data science and web development. 
                 </p>
-            </div>
-            <a id="resume-button" class="button" href="https://drive.google.com/file/d/1C2DtLAlXx4NCqfbVcnDEBMakPCftcTy9/view?usp=sharing">Resume</a>
+                 <div class="icons">
+                    <a href="https://www.linkedin.com/in/deepika-kala-9ba519259" ><img id="icon"src="images/linkedin.png" alt="linkedin"></a>
+                    <a href="https://github.com/deepika1998kala?tab=repositories" ><img id="icon"src="images/github.png" alt="github"></a>
+                    <a href="https://www.instagram.com/deepika1998kala/" ><img id="icon"src="images/instagram.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/deepika.dips.1840/" ><img id="icon"src="images/facebook.png" alt="facebook"></a>
+                    <a id="resume-button" href="https://drive.google.com/file/d/1C2DtLAlXx4NCqfbVcnDEBMakPCftcTy9/view?usp=sharing">Resume</a>
 
+                </div>
+                
+            </div>
+               
+            </div>
+            
 
             
         </div>        
         <!-- <img src="" alt=""> -->
-    </main>
+    </section>
 
     <!----------------------------------- Skill Set Section Starts------------------------------- -->
-    <div class="skillset" id="skillset">
-        <h1 id="about" style="text-align: center; margin-top: 100px; font-family: 'Times New Roman', Times, serif; animation: bounce 1.5s infinite; color: #36454f; ">My Skills</h1>
-        <div class="skills-container">
+    <section class="skillset" id="skillset">
+        <h1 id="about" style="font-size:50px; text-align: center; margin-top: 100px; font-family: 'Times New Roman', Times, serif; animation: bounce 1.5s infinite; color: #36454f; ">My Skills</h1>
+        <div class="skills-row left-to-right">
             
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/C.png" alt="C Icon">
+                    <img src="images/C.png" alt="C Icon">
                 </div>
                 <p>C</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/C++.png" alt="C++ Icon">
+                    <img src="images/C++.png" alt="C++ Icon">
                 </div>
                 <p>C++</p>
             </div>
 
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/Python.png" alt="Python Icon">
+                    <img src="images/Python.png" alt="Python Icon">
                 </div>
                 <p>Python</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/html5.png" alt="HTML Icon">
+                    <img src="images/html5.png" alt="HTML Icon">
                 </div>
                 <p>HTML</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/css.png" alt="CSS Icon">
+                    <img src="images/css.png" alt="CSS Icon">
                 </div>
                 <p>CSS</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/javascript.png" alt="Javascript Icon">
+                    <img src="images/javascript.png" alt="Javascript Icon">
                 </div>
                 <p>Javascript</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/tailwind-css.png" alt="Tailwind Icon">
+                    <img src="images/tailwind-css.png" alt="Tailwind Icon">
                 </div>
                 <p>Tailwind CSS</p>
             </div><div class="skill">
                 <div class="skill-icon">
-                <img src="/sql.png" alt="SQL Icon">
+                    <img src="images/sql.png" alt="SQL Icon">
                 </div>
                 <p>SQL</p>
             </div>
+        </div>
+        <div class="skills-row right-to-left">
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/mongo-db.png" alt="MongoDB Icon">
+                    <img src="images/mongo-db.png" alt="MongoDB Icon">
                 </div>
                 <p>MongoDB</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/r.png" alt="R Icon">
+                    <img src="images/r.png" alt="R Icon">
                 </div>
                 <p>R</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/windows-10.png" alt="Windows Icon">
+                    <img src="images/windows-10.png" alt="Windows Icon">
                 </div>
                 <p>Windows</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/linux.png" alt="linux Icon">
+                    <img src="images/linux.png" alt="linux Icon">
                 </div>
                 <p>linux</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/macos.png" alt="MacOS Icon">
+                    <img src="images/macos.png" alt="MacOS Icon">
                 </div>
                 <p>MacOS</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/visual-studio.png" alt="Visual Studio Icon">
+                    <img src="images/visual-studio.png" alt="Visual Studio Icon">
                 </div>
                 <p>Visual Studio</p>
             </div>
             <div class="skill">
                 <div class="skill-icon">
-                <img src="/github.png" alt="Github Icon">
+                    <img src="images/github.png" alt="Github Icon">
                 </div>
                 <p>GitHub</p>
             </div>
             
         </div>
-    </div>
+    </section>
       
     <!--  SKILL Section Ends Here-->
 
     
     <!--  Project Section Starts Here-->
 
-    <div class="Project" id="projects">
-        <h1 style="font-family: 'Times New Roman', Times, serif;  margin-top: 100px; animation: bounce 1.5s infinite;">Projects</h1>
+    <section class="Project" id="projects">
+        <h1 style="font-family: 'Times New Roman', Times, serif;  margin-top: 100px; animation: bounce 1.5s infinite; ">Projects</h1>
         <div class="Project1">
-            <img src="Portfolio.png" alt="">
+            <img src="images/Portfolio.png" alt="">
             <p style="margin-top: 2px;">Deepika's Portfolio</p>
             <a href="https://github.com/deepika1998kala/My-Portfolio" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a>
             
         </div>
         <div class="Project1">
             
-            <img src="Calculator.png" alt="">
+            <img src="images/Calculator.png" alt="">
             <p style="margin-top: 2px;">Advanced Scientific Calculator</p>
             <a href="https://github.com/deepika1998kala/Advance-Scientific-Calculator" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a>
             
         </div>
         <div class="Project1">
-            <img src="Website View.png" alt="">
+            <img src="images/Website View.png" alt="">
             <p style="margin-top: 2px;">Coffee Shop Project</p>
             <a href="https://github.com/deepika1998kala/Project-HTML-CSS" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a>
             
         </div>
         <div class="Project1">
-            <img src="House.png" alt="">
+            <img src="images/House.png" alt="">
             <p style="margin-top: 2px;">House Price Predictor</p>
             <a href="https://github.com/deepika1998kala/HOUSE-PRICE-PREDICTOR-ML-PROJECT-" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a>
         </div>
         <div class="Project1">
-            <img src="output.png" alt="">
+            <img src="images/output.png" alt="">
             <p style="margin-top: 2px;">Loan Status Predictor</p>
             <a href="https://github.com/deepika1998kala/Loan-Status-Predictor" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a>
         </div>
         <div class="Project1">
-            <img src="GIT.png" alt="">
+            <img src="images/GIT.png" alt="">
             <p style="margin-top: 2px;">For more Project</p>
             <a href="https://github.com/deepika1998kala" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a>
         </div>
         
-    </div>
-    <div class="Project">
+    </section>
+
+
+    <section class="Project">
         <h1 style="font-family: 'Times New Roman', Times, serif; animation: bounce 1.5s infinite;">Visit Some of My Coding Platforms</h1>
         <div class="Project1">
-            <img src="leetcode.png" alt="">
+            <img src="images/leetcode.png" alt="">
             <p style="margin-top: 2px;">Leetcode</p>
             <a href="https://leetcode.com/u/222210005/" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333; ">Visit Here &#x2192;</div></a>
         </div>
         <div class="Project1">
-            <img src="gfg.png" alt="">
+            <img src="images/gfg.png" alt="">
             <p style="margin-top: 2px;">GFG</p>
             <a href="https://www.geeksforgeeks.org/user/deepikakala/" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a>
         </div>
         <div class="Project1">
-            <img src="TUF.png" alt="">
+            <img src="images/TUF.png" alt="">
             <p style="margin-top: 2px;">TUF</p>
             <a href="https://takeuforward.org/profile/Deepikakala" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a>
         </div>
         
 
-    </div>
+    </section>
 
 
-    <div  id="exp">
-        <h1 style="font-family: 'Times New Roman', Times, serif; text-align: center;  margin-top: 100px; color: #333; animation: bounce 1.5s infinite;">Experience</h1>
+    <section  id="exp">
+        <h1 style=" font-size:50px; font-family: 'Times New Roman', Times, serif; text-align: center;  margin-top: 100px; color: #333; animation: bounce 1.5s infinite;">Experience</h1>
 
         <div class="timeline">
             <div class="containers right">
                 <div class="contents">
-                <h2>May 2024 - August 2024</h2>
-                <h3 style="color: #36454f; text-align: justify;">Data Analytics Intern </h3>    
-                <h3 style="color: #36454f; text-align: left; margin-top: 0%;">Pantech.AI (Remote)   </h3>     
-                <p style="color: #36454f; text-align: justify;"">Actively participating in a comprehensive data analytics internship. Gaining hands-on experience in machine learning,
-                data analysis, and algorithm development.
-                Collaborating with the team to develop innovative solutions in data science. Enhancing practical knowledge of various
-                data science technologies and methodologies.</p>
+                    <h2>May 2024 - August 2024</h2>
+                    <h3 style="color: #36454f; text-align: justify;">Data Analytics Intern </h3>    
+                    <h3 style="color: #36454f; text-align: left; margin-top: 0%;">Pantech.AI (Remote)   </h3>     
+                    <p style="color: #36454f; text-align: justify;"">Actively participating in a comprehensive data analytics internship. Gaining hands-on experience in machine learning,
+                    data analysis, and algorithm development.
+                    Collaborating with the team to develop innovative solutions in data science. Enhancing practical knowledge of various
+                    data science technologies and methodologies.</p>
                 </div>
             </div>
             
         </div>
-    </div>
+    </section>
 
-    <div class="education" id="edu">
-        <h1 style="font-family:'Times New Roman', Times, serif; text-align: center; margin-top: 100px; color: #333; animation: bounce 1.5s infinite;">Education</h1>
+    <section class="education" id="edu">
+        <h1 style="font-size:50px; font-family:'Times New Roman', Times, serif; text-align: center; margin-top: 100px; color: #333; animation: bounce 1.5s infinite;">Education</h1>
         
-        <div class="timeline">
-            <div class="containers left">
-              <div class="contents">
+        <div class="timeline-1">
+            <div class="container left">
+              <div class="content">
                 <h2>Sept 2022 - July 2024</h2>
                 <h3>M.Tech | CSE</h3>
                 <p>National Institute of Technology(NIT), Delhi</p>
               </div>
             </div>
-            <div class="containers right">
-              <div class="contents">
+            <div class="container right">
+              <div class="content">
                 <h2>Aug 2017 - June 2021</h2>
                     <h3>B.Tech | CSE</h3>
                     <p>Hemwati Nandan Bahuguna Garhwal University, Uttarakhand</p>
               </div>
             </div>
-          </div>
+        </div>
         
-    </div>
+    </section>
 
-    <div style="align-content: center;" id="cont">
-        <h1 style="font-family:; text-align: center; color: #333; margin-top: 100px; animation: bounce 1.5s infinite;" >Get in Touch</h1>
+    <section style="align-content: center;" id="cont">
+        <h1 style="font-size:50px; font-family: 'Times New Roman', Times, serif; text-align: center; color: #333; margin-top: 100px; animation: bounce 1.5s infinite;" >Get in Touch</h1>
         <h3 style="font-family:Arial, Helvetica, sans-serif; color: #808080; text-align: center;">Contact me</h3>
         
         <div class="Project">
             <div class="Project1" style=" padding: 10px; height: 150px; width: 250px;">
-                <img src="gmail.png" alt="" style="width: 20px; height: auto;">
+                <img src="images/gmail.png" alt="" style="width: 20px; height: auto;">
                 <p style="margin-top: 2px; color: #333;">deepika98kala@gmail.com</p>
                 <a href="mailto:deepika98kala@gmail.com?subject=Hello%20Deepika&body=Hi%20Deepika,%0D%0A%0D%0A" style="margin-top: 2px; text-decoration: none;">
                     <div class="arrow-text" style="color: #333;">Mail me &#x2192;</div>
                 </a>
             </div>
             <div class="Project1" style=" padding: 10px; height: 150px; width: 250px;">
-                <img src="phone.png" alt="" style="width: 20px; height: auto;" >
+                <img src="images/phone.png" alt="" style="width: 20px; height: auto;" >
                 <p style="margin-top: 2px; color: #333;">+91 7248221807</p>
                 <a href="tel:+91 7248221807" style="margin-top: 2px; text-decoration: none;">
                     <div class="arrow-text" style="color: #333;">Call me &#x2192;</div>
@@ -352,16 +341,16 @@
             
             
         </div>
-    </div>
+    </section>
     
     <footer>
             
         <p>Follow me on:</p>
     
-        <a href="https://www.linkedin.com/in/deepika-kala-9ba519259"><img id="icon-image"src="linkedin.png" alt="linkedin"></a>
-        <a href="https://github.com/deepika1998kala?tab=repositories"><img id="icon-image"src="github.png" alt="github"></a>
-        <a href="https://www.instagram.com/deepika1998kala/"><img id="icon-image"src="instagram.png" alt="instagram"></a>
-        <a href="https://www.facebook.com/deepika.dips.1840/"><img id="icon-image"src="facebook.png" alt="facebook"></a>
+        <a href="https://www.linkedin.com/in/deepika-kala-9ba519259"><img id="icon-image"src="images/linkedin.png" alt="linkedin"></a>
+        <a href="https://github.com/deepika1998kala?tab=repositories"><img id="icon-image"src="images/github.png" alt="github"></a>
+        <a href="https://www.instagram.com/deepika1998kala/"><img id="icon-image"src="images/instagram.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/deepika.dips.1840/"><img id="icon-image"src="images/facebook.png" alt="facebook"></a>
     
         
     
@@ -370,6 +359,8 @@
     <div style="text-align: center;  padding: 5px;">&copy; 2024 deepikakala. All rights reserved.</div> 
 
     
+    <!-- Script for Header -->
+    <script src="scripts.js"></script>
     
 </body>
 </html>
